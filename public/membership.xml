@@ -1007,7 +1007,7 @@
             <City>Shreveport</City>
             <State>LA</State>
             <Zip>71119</Zip>
-                <Picture>McGuirt,MikeandLisa.jpeg</Picture>
+            <Picture>McGuirt,MikeandLisa.jpeg</Picture>
             <member>
                 <firstname>Mike</firstname>
                 <lastname>McGuirt</lastname>
@@ -1016,9 +1016,8 @@
                 <phone>3187514382</phone>
                 <birthday>11/7/1953</birthday>
                 <role>Member</role>
-
                 <passwordHash></passwordHash>
-                <Picture>mikemcguirt.jpg</Picture>
+                <Picture></Picture>
                 <Occupation>Analyst with Centurylink, work from home</Occupation>
                 <Ministry>Substitute teacher for Bill Alexander</Ministry>
                 <funfacts></funfacts>
@@ -1028,10 +1027,9 @@
                 <lastname>McGuirt</lastname>
                 <familyrole>Spouse</familyrole>
                 <email>2mcguirts@comcast.net</email>
-                <phone>3184698548</phone>
+                <phone>3182864242</phone>
                 <birthday>4/10/1954</birthday>
                 <role>Maintainer</role>
-
                 <passwordHash></passwordHash>
                 <Picture>lisamcguirt.jpg</Picture>
                 <Occupation>Executive Assistant @ Bethany Camp and Conference Center</Occupation>
