@@ -31,7 +31,6 @@ const elements = {
   toast: document.getElementById('toast'),
   logoutBtn: document.getElementById('logoutBtn'),
   openLoginBtn: document.getElementById('openLoginBtn'),
-  testingUserSelect: document.getElementById('testingUserSelect'),
   xmlEditToggleBtn: document.getElementById('xmlEditToggleBtn'),
   personLookup: document.getElementById('personLookup'),
   personResults: document.getElementById('personResults'),
@@ -108,17 +107,6 @@ function getRoleDisplay(role) {
 
 function saveUsers() {
   localStorage.setItem(userKey, JSON.stringify(appState.users));
-}
-
-function renderTestingUserOptions() {
-  if (!elements.testingUserSelect) return;
-
-  elements.testingUserSelect.innerHTML = `
-    <option value="">Choose a user to log in automatically</option>
-    ${appState.users.map((user) => `
-      <option value="${escapeXml(user.id)}">${escapeXml(`${user.firstName} ${user.lastName}`)} (${escapeXml(user.role || 'Interested')})</option>
-    `).join('')}
-  `;
 }
 
 function readUsers() {
@@ -733,7 +721,6 @@ function renderAll() {
   renderPublic();
   renderRoster();
   renderLookup();
-  renderTestingUserOptions();
 
   const storedUser = sessionStorage.getItem('alexanderBGroup.currentUser');
   if (storedUser) {
@@ -771,10 +758,6 @@ function attachEvents() {
   });
 
   elements.loginForm.addEventListener('submit', handleLoginSubmit);
-  elements.testingUserSelect.addEventListener('change', (event) => {
-    const user = appState.users.find((member) => member.id === event.target.value);
-    if (user) loginUser(user.email || user.phone, '');
-  });
   elements.signupForm.addEventListener('submit', handleSignupSubmit);
   elements.profileForm.addEventListener('submit', handleProfileSave);
   elements.personLookup.addEventListener('input', renderLookup);

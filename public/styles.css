@@ -28,6 +28,16 @@ body {
   color: var(--text);
 }
 
+#signupForm > label {
+  grid-template-columns: minmax(9rem, 0.35fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+#signupForm .form-section label {
+  grid-template-columns: minmax(8rem, 0.35fr) minmax(0, 1fr);
+  align-items: center;
+}
+
 button,
 input,
 textarea,
@@ -131,6 +141,10 @@ p {
 .nav-btn {
   background: rgba(255, 255, 255, 0.14);
   color: #fff;
+}
+
+.nav-btn[hidden] {
+  display: none;
 }
 
 .nav-btn.active {
@@ -349,7 +363,15 @@ p {
 }
 
 .auth-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
+}
+
+#signupPanel {
+  grid-row: 1;
+}
+
+#loginPanel {
+  grid-row: 2;
 }
 
 .app-form,
@@ -363,6 +385,9 @@ p {
   display: grid;
   gap: 0.45rem;
   font-weight: 600;
+  color: var(--text);
+}
+
 .form-section {
   display: grid;
   gap: 0.8rem;
@@ -374,7 +399,16 @@ p {
   padding: 0 0.35rem;
   font-weight: 700;
 }
-  color: var(--text);
+
+#signupForm > label {
+  grid-template-columns: minmax(9rem, 0.35fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+#signupForm .form-section label {
+  grid-template-columns: minmax(8rem, 0.35fr) minmax(0, 1fr);
+  align-items: center;
+}
 }
 
 input,
@@ -470,6 +504,10 @@ textarea {
   display: none;
 }
 
+.panel[hidden] {
+  display: none;
+}
+
 .visible-section {
   display: block;
 }
@@ -540,5 +578,12 @@ body.logged-in .secure-only {
   .dashboard-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  #signupForm > label,
+  #signupForm .form-section label {
+    grid-template-columns: 1fr;
   }
 }

@@ -23,7 +23,7 @@
       <nav class="main-nav" aria-label="Main navigation">
         <a class="nav-btn active" href="#public" data-view="public">Public home</a>
         <a id="authLink" class="nav-btn" href="#auth" data-view="auth" data-auth-target="login">Log in</a>
-        <a class="nav-btn" href="#auth" data-view="auth" data-auth-target="signup">Create account</a>
+        <a id="createAccountLink" class="nav-btn" href="#auth" data-view="auth" data-auth-target="signup">Create account</a>
         <a class="nav-btn secure-only" href="#dashboard" data-view="dashboard">Member dashboard</a>
       </nav>
     </header>
@@ -31,7 +31,7 @@
     <main class="page-shell">
       <section id="publicView" class="view-panel active-view">
         <div class="card-grid single-column">
-          <div class="panel">
+          <div id="loginPanel" class="panel" hidden>
             <h3>What we do</h3>
             <div id="benefitsList" class="stack-list"></div>
           </div>
@@ -45,14 +45,8 @@
 
       <section id="authView" class="view-panel">
         <div class="card-grid auth-grid">
-          <div class="panel">
+          <div id="loginPanel" class="panel">
             <h3>Log in</h3>
-            <label>
-              Testing account
-              <select id="testingUserSelect">
-                <option value="">Choose a user to log in automatically</option>
-              </select>
-            </label>
             <form id="loginForm" class="app-form">
               <label>
                 Email or phone number
@@ -66,7 +60,7 @@
             </form>
           </div>
 
-          <div class="panel">
+          <div id="signupPanel" class="panel" hidden>
             <h3>Create new account</h3>
             <form id="signupForm" class="app-form">
               <label>
@@ -89,10 +83,6 @@
                 Birthday
                 <input type="date" id="signupBirthday" required />
               </label>
-              <label>
-                Family name
-                <input type="text" id="signupFamily" placeholder="Last name, First name and Spouse" />
-              </label>
               <fieldset class="form-section">
                 <legend>Second family member (optional)</legend>
                 <label>First name <input type="text" id="signupSecondFirstName" /></label>
@@ -100,7 +90,16 @@
                 <label>Email <input type="email" id="signupSecondEmail" /></label>
                 <label>Phone <input type="tel" id="signupSecondPhone" /></label>
                 <label>Birthday <input type="date" id="signupSecondBirthday" /></label>
+                <label>Second person's picture <input type="file" id="signupSecondPicture" accept="image/*" /></label>
               </fieldset>
+              <label>
+                Family name
+                <input type="text" id="signupFamily" placeholder="Last name, First name and Spouse" />
+              </label>
+              <label>
+                Family picture
+                <input type="file" id="signupFamilyPicture" accept="image/*" />
+              </label>
               <label>
                 Address
                 <input type="text" id="signupAddress" />
@@ -114,7 +113,7 @@
                 <input type="password" id="signupPassword" required />
               </label>
               <label>
-                Upload picture
+                First person's picture
                 <input type="file" id="signupPicture" accept="image/*" />
               </label>
               <button type="submit" class="secondary-button">Create account</button>
@@ -124,17 +123,6 @@
       </section>
 
       <section id="dashboardView" class="view-panel">
-        <div class="panel dashboard-header">
-          <div>
-            <p class="eyebrow">Member portal</p>
-            <h2 id="dashboardTitle">Welcome</h2>
-          </div>
-          <div class="dashboard-actions">
-            <button id="xmlEditToggleBtn" class="secondary-button hidden-section">Edit XML files</button>
-            <button id="logoutBtn" class="ghost-button">Log out</button>
-          </div>
-        </div>
-
         <div class="panel current-events-panel">
           <h3>Current events</h3>
           <div id="memberEvents" class="events-list"></div>
@@ -245,6 +233,6 @@
 
     <div id="toast" class="toast" aria-live="polite"></div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=20260910-3"></script>
   </body>
 </html>
