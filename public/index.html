@@ -14,31 +14,22 @@
           <p class="eyebrow">Community Outreach & Class Support</p>
           <h1>Alexander B Group</h1>
         </div>
+        <div class="header-status">
+          <span>Access</span>
+          <strong id="sessionUserName"></strong>
+          <strong id="sessionStatus">Guest mode</strong>
+        </div>
       </div>
       <nav class="main-nav" aria-label="Main navigation">
-        <button class="nav-btn active" data-view="public">Public home</button>
-        <button class="nav-btn" data-view="auth">Login / create account</button>
-        <button class="nav-btn secure-only" data-view="dashboard">Member dashboard</button>
+        <a class="nav-btn active" href="#public" data-view="public">Public home</a>
+        <a id="authLink" class="nav-btn" href="#auth" data-view="auth" data-auth-target="login">Log in</a>
+        <a class="nav-btn" href="#auth" data-view="auth" data-auth-target="signup">Create account</a>
+        <a class="nav-btn secure-only" href="#dashboard" data-view="dashboard">Member dashboard</a>
       </nav>
     </header>
 
     <main class="page-shell">
-      <aside class="sidebar">
-        <div class="status-card">
-          <h2>Access</h2>
-          <p id="sessionStatus">Guest mode</p>
-        </div>
-      </aside>
-
       <section id="publicView" class="view-panel active-view">
-        <div class="hero">
-          <div>
-            <p class="eyebrow">Helping people grow together</p>
-            <h2>Activities, ministry, and fellowship</h2>
-          </div>
-          <button class="primary-button" id="openLoginBtn">Login to continue</button>
-        </div>
-
         <div class="card-grid single-column">
           <div class="panel">
             <h3>What we do</h3>
@@ -100,7 +91,23 @@
               </label>
               <label>
                 Family name
-                <input type="text" id="signupFamily" placeholder="Share your family name" />
+                <input type="text" id="signupFamily" placeholder="Last name, First name and Spouse" />
+              </label>
+              <fieldset class="form-section">
+                <legend>Second family member (optional)</legend>
+                <label>First name <input type="text" id="signupSecondFirstName" /></label>
+                <label>Last name <input type="text" id="signupSecondLastName" /></label>
+                <label>Email <input type="email" id="signupSecondEmail" /></label>
+                <label>Phone <input type="tel" id="signupSecondPhone" /></label>
+                <label>Birthday <input type="date" id="signupSecondBirthday" /></label>
+              </fieldset>
+              <label>
+                Address
+                <input type="text" id="signupAddress" />
+              </label>
+              <label>
+                City
+                <input type="text" id="signupCity" />
               </label>
               <label>
                 Password
@@ -188,6 +195,7 @@
               <input type="text" id="personLookup" placeholder="Search roster" />
             </label>
             <div id="personResults" class="stack-list"></div>
+            <div id="personDetail" class="profile-info hidden-section"></div>
           </details>
 
           <details class="panel disclosure-panel">
@@ -216,6 +224,7 @@
           <div class="editor-actions">
             <button id="saveXmlDataBtn" class="primary-button">Save local XML changes</button>
             <a id="downloadXmlBtn" class="secondary-button inline-link" download="updated-membership.xml">Download XML</a>
+            <a id="downloadBenefitsBtn" class="secondary-button inline-link" download="Benefits.xml">Download Benefits.xml</a>
           </div>
         </details>
 
@@ -236,6 +245,6 @@
 
     <div id="toast" class="toast" aria-live="polite"></div>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

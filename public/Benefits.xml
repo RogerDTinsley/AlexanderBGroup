@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Record name="Alexander B Group">
-  <Description><p>Our class meets in room 2407 beginning at 8:30 Sunday mornings  The leader is Bill Alexander and we study from
-  the "Quarterly study guide.  While officially categorized as "mature adults" we question both.  We are couples and 
-  singles, somewhat top heavy in age and wisdom.  Many of our members are in the choir, so that is the reason people get
-  up and leave while the class is in session - it has nothing to do with the teaching.<p>If you have any questions about
-   the class or would like to participate, please create an account so we can reach out to you!</p></Description>
+  <Description>
+    <p>Our class meets in room 2407 beginning at 8:30 Sunday mornings.</p>
+    <p>The leader is Bill Alexander and we study from the Quarterly study guide.</p>
+    <p>While officially categorized as mature adults, we question both.</p>
+    <p>We are couples and singles, somewhat top heavy in age and wisdom.</p>
+    <p>Many of our members are in the choir, so that is the reason people get up and leave while the class is in session - it in no way reflects on the teaching.</p>
+    <p>If you have any questions about the class or would like to participate, please create an account so we can reach out to you!</p>
+  </Description>
 
   <Activities>
     <Activity name="Class Potlucks">Boy! Do we like to eat!</Activity>
-    <Activity name="Class Christmas Party">Celebrate His Birth</Activity>
-    <Activity name="Dinner Clubs">Small groups of 6-10 meet monthly for dinner and fellowship</Activity>
     <Activity name="Mission House">We maintain one of Broadmoor's houses for workers on furlough</Activity>
     <Activity name="Christmas Party">Celebrate His Birth</Activity>
     <Activity name="Dinner Clubs">Small groups of 6-10 meet monthly for dinner and fellowship.</Activity>
@@ -36,4 +37,5 @@
     <event date="2026-05-10" time="13:00" location="Mercy Christian Academy">Mercy Christian Academy</event>
     <event date="2026-05-10" time="13:00" location="Christmas Shoe Boxes">El Salvador Missions</event>
 
+  </events>
 </Record>
