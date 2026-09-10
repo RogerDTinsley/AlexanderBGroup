@@ -357,6 +357,53 @@ p {
   font-size: 1rem;
 }
 
+.roster-family {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.9rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.roster-family-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.roster-family-header h4 {
+  margin: 0 0 0.25rem;
+  color: var(--primary-dark);
+}
+
+.roster-family-picture {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 72px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.roster-members {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.roster-member-row {
+  display: grid;
+  grid-template-columns: minmax(7rem, 1fr) minmax(6rem, 0.8fr) minmax(8rem, 1fr) minmax(13rem, 1.5fr);
+  gap: 0.65rem;
+  align-items: center;
+  padding: 0.45rem 0.55rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.roster-member-row span {
+  overflow-wrap: anywhere;
+}
+
 .contact-card {
   display: grid;
   gap: 0.7rem;
@@ -631,5 +678,13 @@ body.logged-in .secure-only {
 
   #profileForm label {
     grid-template-columns: 1fr;
+  }
+
+  .roster-family-header {
+    align-items: flex-start;
+  }
+
+  .roster-member-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
