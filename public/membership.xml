@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record name="Alexander B Group">
+
+<membership>
+    <family name="Tinsley">
+        <Address>528 Buckhead Circle</Address>
+        <City>Shreveport</City>
+    <member>
+        <firstname>Roger</firstname>
+        <lastname>Tinsley</lastname>
+        <email>rogerdtinsley@gmail.com</email>
+        <phone>318-564-4382</phone>
+        <birthday>12/2/1945</birthday>
+        <role>Admin</role>
+    </member>
+    <member>
+        <firstname>Joy</firstname>
+        <lastname>Tinsley</lastname>
+        <email>rogechrist4joytinsley@gmail.com</email>
+        <phone>318-469-8548</phone>
+        <birthday>11/2/1943</birthday>
+        <role>Member</role>
+    </member>
+    </family>
+</membership>
+
+ <Security Roles>
+    <Role>Admin</Role>
+    <Role>Member</Role>
+    <Role>Maintainer</Role>
+    <Role>Interested</Role>
+    <Role>Withdrawn</Role>
+    <Role>Guest</Role>
+  </Security Roles>
+
+</Record>

@@ -1,0 +1,44 @@
+I want to create a website for our small group.  
+The initial landing page is available to the public.  It displays data from a file named Benefits.xml.
+This will list the kinds of <activities> our class participates in (but not <events> that are found
+in the Benefits.xml file.  The file also contains contact information if someone
+would like to visit our class and an indicator of their interest in being added
+to our class roster.  New account data includes demographics information as 
+well as the capability to upload a picture. 
+
+It should have the following security roles.
+Admin - All access to all things (build it with me as this role)
+Maintainer - Able to modify data file(s). CRUD
+Member - able to view data in data files, but not change it.
+Interested - has created an account and entered information showing interest in the class.
+Guest - no security, open to everyone
+
+These roles will be assigned by the system, the maintainer, or the admin.  They should not show anywhere except in drop down lists used
+by the admin.
+
+Anyone who signs in uses either their email or their phone number (unformatted) as their username and supplies a password which we will 
+encrypt.  For testing, ignore the password check.
+
+The index.html page is public and 
+
+The index.html page will also have a logon capability, with the ability to 
+create a new account.  New accounts will automatically collect information and
+record it in membership.xml file with a role of interested, and send an email to all people in the role
+of "Maintainer".  They can then review the data for accuracy and change the role to member.
+
+The maintainer role allows a person to perform edits on the membership.xml file and the benefits.xml file.
+
+Only the admin role can assign roles of admin or maintainer.
+
+Members may change only their own data in the membership.xml file, including uploading pictures.
+
+If someone signs in with a role of Guest or Interested, they are only presented the original index.html page.
+
+Once a member, maintainer, or admin logs in, they are presented with a members' page (a page of specific <events> that are in progress, as well as a lookup for people in the
+membership.xml file).  They may also view the membership roster in alphabetical order.  They are allowed to change their own data and
+that of their family.
+
+There should be a link for Maintainers and Admins to an edit page.  This page allows updating of all xml files.  Only the Admin can change 
+the security.xml file, and that ability should not show for Maintainers.
+
+can you buld that site for me in this folder?

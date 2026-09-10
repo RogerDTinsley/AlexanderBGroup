@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record name="Alexander B Group">
+  <Description>Our class meets in room 2407 beginning at 8:30 Sunday mornings  The leader is Bill Alexander and we study from
+  the "Quarterly study guide.  While officially categorized as "mature adults" we question both.  We are couples and singles, somewhat 
+  top heavy in age and wisdom</Description>
+
+  <Activities>
+    <Activity name="Class Potlucks">Boy! Do we like to eat!</Activity>
+    <Activity name="Class Christmas Party">Celebrate His Birth</Activity>
+    <Activity name="Dinner Clubs">Small groups of 6-10 meet monthly for dinner and fellowship</Activity>
+    <Activity name="Mission House">We maintain one of Broadmoor's houses for workers on furlough</Activity>
+    <Activity name="Christmas Party">Celebrate His Birth</Activity>
+    <Activity name="Dinner Clubs">Small groups of 6-10 meet monthly for dinner and fellowship.</Activity>
+    <Activity name="Broadmoor Stem Academy">We love on the teachers of a local school</Activity>
+    <Activity name="Foster Care">We provide support and care for children in need</Activity>
+  </Activities>
+
+  <events>
+    <event date="2026-10-15" time="18:00" location="Fellowship Hall">Class Potluck on a specific day
+        <need name="Salad" provider="Roger Tinsley" quantity="2" unit="bowls"/>
+        <need name="Soup" provider="Roger Tinsley" quantity="2" unit="bowls"/>
+    </event>
+    <event date="2026-12-24" time="19:00" location="Community Center">Class Christmas Party</event>
+    <event date="2026-11-12" time="10:00" location="Missions House">Mission House Work Day</event>
+    <event date="2026-09-15" time="14:00" location="Broadmoor Stem">Broadmoor Stem</event>
+    <event date="2026-03-20" time="15:00" location="Foster Care">Foster Care</event>
+    <event date="2026-05-10" time="13:00" location="Mercy Christian Academy">Mercy Christian Academy</event>
+    <event date="2026-05-10" time="13:00" location="Christmas Shoe Boxes">El Salvador Missions</event>
+
+</Record>

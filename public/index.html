@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander B Group</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark">AB</div>
+        <div>
+          <p class="eyebrow">Community Outreach & Class Support</p>
+          <h1>Alexander B Group</h1>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-btn active" data-view="public">Public home</button>
+        <button class="nav-btn" data-view="auth">Login / create account</button>
+        <button class="nav-btn secure-only" data-view="dashboard">Member dashboard</button>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <aside class="sidebar">
+        <div class="status-card">
+          <h2>Access</h2>
+          <p id="sessionStatus">Guest mode</p>
+        </div>
+      </aside>
+
+      <section id="publicView" class="view-panel active-view">
+        <div class="hero">
+          <div>
+            <p class="eyebrow">Helping people grow together</p>
+            <h2>Activities, ministry, and fellowship</h2>
+          </div>
+          <button class="primary-button" id="openLoginBtn">Login to continue</button>
+        </div>
+
+        <div class="card-grid single-column">
+          <div class="panel">
+            <h3>What we do</h3>
+            <div id="benefitsList" class="stack-list"></div>
+          </div>
+        </div>
+
+        <div class="panel interest-box">
+          <h3>Visit our class</h3>
+          <div id="contactInfo" class="contact-card"></div>
+        </div>
+      </section>
+
+      <section id="authView" class="view-panel">
+        <div class="card-grid auth-grid">
+          <div class="panel">
+            <h3>Log in</h3>
+            <label>
+              Testing account
+              <select id="testingUserSelect">
+                <option value="">Choose a user to log in automatically</option>
+              </select>
+            </label>
+            <form id="loginForm" class="app-form">
+              <label>
+                Email or phone number
+                <input type="text" id="loginEmail" placeholder="Use your email or phone number" required />
+              </label>
+              <label>
+                Password
+                <input type="password" id="loginPassword" placeholder="Optional while testing" />
+              </label>
+              <button type="submit" class="primary-button">Sign in</button>
+            </form>
+          </div>
+
+          <div class="panel">
+            <h3>Create new account</h3>
+            <form id="signupForm" class="app-form">
+              <label>
+                First name
+                <input type="text" id="signupFirstName" required />
+              </label>
+              <label>
+                Last name
+                <input type="text" id="signupLastName" required />
+              </label>
+              <label>
+                Email
+                <input type="email" id="signupEmail" required />
+              </label>
+              <label>
+                Phone
+                <input type="tel" id="signupPhone" required />
+              </label>
+              <label>
+                Birthday
+                <input type="date" id="signupBirthday" required />
+              </label>
+              <label>
+                Family name
+                <input type="text" id="signupFamily" placeholder="Share your family name" />
+              </label>
+              <label>
+                Password
+                <input type="password" id="signupPassword" required />
+              </label>
+              <label>
+                Upload picture
+                <input type="file" id="signupPicture" accept="image/*" />
+              </label>
+              <button type="submit" class="secondary-button">Create account</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="dashboardView" class="view-panel">
+        <div class="panel dashboard-header">
+          <div>
+            <p class="eyebrow">Member portal</p>
+            <h2 id="dashboardTitle">Welcome</h2>
+          </div>
+          <div class="dashboard-actions">
+            <button id="xmlEditToggleBtn" class="secondary-button hidden-section">Edit XML files</button>
+            <button id="logoutBtn" class="ghost-button">Log out</button>
+          </div>
+        </div>
+
+        <div class="panel current-events-panel">
+          <h3>Current events</h3>
+          <div id="memberEvents" class="events-list"></div>
+        </div>
+
+        <div class="card-grid">
+          <details class="panel disclosure-panel">
+            <summary>My profile</summary>
+            <form id="profileForm" class="app-form">
+              <div class="profile-photo-wrap" id="profilePhotoWrap"></div>
+              <label>
+                First name
+                <input type="text" id="profileFirstName" />
+              </label>
+              <label>
+                Last name
+                <input type="text" id="profileLastName" />
+              </label>
+              <label>
+                Email
+                <input type="email" id="profileEmail" />
+              </label>
+              <label>
+                Phone
+                <input type="tel" id="profilePhone" />
+              </label>
+              <label>
+                Birthday
+                <input type="date" id="profileBirthday" />
+              </label>
+              <label>
+                Family name
+                <input type="text" id="profileFamily" />
+              </label>
+              <label>
+                Address
+                <input type="text" id="profileAddress" />
+              </label>
+              <label>
+                City
+                <input type="text" id="profileCity" />
+              </label>
+              <label>
+                Upload new picture
+                <input type="file" id="profilePicture" accept="image/*" />
+              </label>
+              <button type="submit" class="primary-button">Save my profile</button>
+            </form>
+          </details>
+
+        </div>
+
+        <div class="card-grid">
+          <details class="panel disclosure-panel">
+            <summary>Member lookup</summary>
+            <label>
+              Search by name or email
+              <input type="text" id="personLookup" placeholder="Search roster" />
+            </label>
+            <div id="personResults" class="stack-list"></div>
+          </details>
+
+          <details class="panel disclosure-panel">
+            <summary>Family roster</summary>
+            <div id="familyRoster" class="stack-list"></div>
+          </details>
+        </div>
+
+        <details id="adminPanel" class="panel disclosure-panel hidden-section">
+          <summary>Role management</summary>
+          <div id="roleManagement" class="stack-list"></div>
+        </details>
+
+        <details id="maintainerPanel" class="panel disclosure-panel hidden-section">
+          <summary>Manage data files</summary>
+          <div class="editor-grid">
+            <div>
+              <label for="benefitsEditor">Benefits.xml</label>
+              <textarea id="benefitsEditor" rows="18"></textarea>
+            </div>
+            <div>
+              <label for="membershipEditor">membership.xml</label>
+              <textarea id="membershipEditor" rows="18"></textarea>
+            </div>
+          </div>
+          <div class="editor-actions">
+            <button id="saveXmlDataBtn" class="primary-button">Save local XML changes</button>
+            <a id="downloadXmlBtn" class="secondary-button inline-link" download="updated-membership.xml">Download XML</a>
+          </div>
+        </details>
+
+        <details id="securityPanel" class="panel disclosure-panel hidden-section">
+          <summary>Security.xml</summary>
+          <textarea id="securityEditor" rows="16"></textarea>
+          <div class="editor-actions">
+            <button id="saveSecurityBtn" class="primary-button">Save security settings</button>
+          </div>
+        </details>
+
+        <details id="rosterPanel" class="panel disclosure-panel">
+          <summary>Class roster</summary>
+          <div id="rosterList" class="stack-list"></div>
+        </details>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
