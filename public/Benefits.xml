@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Record name="Alexander B Group">
-  <Description>Our class meets in room 2407 beginning at 8:30 Sunday mornings  The leader is Bill Alexander and we study from
-  the "Quarterly study guide.  While officially categorized as "mature adults" we question both.  We are couples and singles, somewhat 
-  top heavy in age and wisdom</Description>
+  <Description><p>Our class meets in room 2407 beginning at 8:30 Sunday mornings  The leader is Bill Alexander and we study from
+  the "Quarterly study guide.  While officially categorized as "mature adults" we question both.  We are couples and 
+  singles, somewhat top heavy in age and wisdom.  Many of our members are in the choir, so that is the reason people get
+  up and leave while the class is in session - it has nothing to do with the teaching.<p>If you have any questions about
+   the class or would like to participate, please create an account so we can reach out to you!</p></Description>
 
   <Activities>
     <Activity name="Class Potlucks">Boy! Do we like to eat!</Activity>
@@ -11,14 +13,21 @@
     <Activity name="Mission House">We maintain one of Broadmoor's houses for workers on furlough</Activity>
     <Activity name="Christmas Party">Celebrate His Birth</Activity>
     <Activity name="Dinner Clubs">Small groups of 6-10 meet monthly for dinner and fellowship.</Activity>
+    <Activity name="Christmas Shoe Boxes">In support of El Salvador Missions</Activity>
     <Activity name="Broadmoor Stem Academy">We love on the teachers of a local school</Activity>
+    <Activity name="Mercy Christian Academy">We support a Christian School that is currently housed at Broadmoor</Activity>
     <Activity name="Foster Care">We provide support and care for children in need</Activity>
   </Activities>
 
   <events>
     <event date="2026-10-15" time="18:00" location="Fellowship Hall">Class Potluck on a specific day
-        <need name="Salad" provider="Roger Tinsley" quantity="2" unit="bowls"/>
-        <need name="Soup" provider="Roger Tinsley" quantity="2" unit="bowls"/>
+        <need>Salad
+          <provider>Joy Tinsley</provider>
+          <provider>Beth Waldrop</provider>
+        </need>
+        <need>Soup
+          <provider>Roger Tinsley</provider>
+        </need>
     </event>
     <event date="2026-12-24" time="19:00" location="Community Center">Class Christmas Party</event>
     <event date="2026-11-12" time="10:00" location="Missions House">Mission House Work Day</event>

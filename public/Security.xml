@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Record name="Alexander B Group">
 
- <Security Roles>
+ <SecurityRoles>
     <Role>Admin</Role>
     <Role>Member</Role>
     <Role>Maintainer</Role>
     <Role>Interested</Role>
     <Role>Withdrawn</Role>
     <Role>Guest</Role>
-  </Security Roles>
+  </SecurityRoles>
 
 </Record>

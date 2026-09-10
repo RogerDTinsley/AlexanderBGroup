@@ -1,36 +1,2066 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Record name="Alexander B Group">
-
-<membership>
-    <family name="Tinsley">
-        <Address>528 Buckhead Circle</Address>
-        <City>Shreveport</City>
-    <member>
-        <firstname>Roger</firstname>
-        <lastname>Tinsley</lastname>
-        <email>rogerdtinsley@gmail.com</email>
-        <phone>318-564-4382</phone>
-        <birthday>12/2/1945</birthday>
-        <role>Admin</role>
-    </member>
-    <member>
-        <firstname>Joy</firstname>
-        <lastname>Tinsley</lastname>
-        <email>rogechrist4joytinsley@gmail.com</email>
-        <phone>318-469-8548</phone>
-        <birthday>11/2/1943</birthday>
-        <role>Member</role>
-    </member>
-    </family>
-</membership>
-
- <Security Roles>
-    <Role>Admin</Role>
-    <Role>Member</Role>
-    <Role>Maintainer</Role>
-    <Role>Interested</Role>
-    <Role>Withdrawn</Role>
-    <Role>Guest</Role>
-  </Security Roles>
-
+    <membership>
+        <family name="ALEXANDER, Bill and Beth">
+            <Address>9647 Norris Ferry Road</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-7719</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Bill</firstname>
+                <lastname>Alexander</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>bill.alexander@chem-air.com</email>
+                <phone>3184694600</phone>
+                <birthday>11/22/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Chem-Air LLC, Red River Specialties Inc., Alexander Land Co., LLC </Occupation>
+                <Ministry>B Group Leader</Ministry>
+                <Ministry>Men’s construction mission trip</Ministry>
+                <Ministry>S/B Rescue Mission</Ministry>
+                <funfacts>Outdoorsman, enjoys fishing and hunting</funfacts>
+            </member>
+            <member>
+                <firstname>Beth</firstname>
+                <lastname>Alexander</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>elizabethaalexander@gmail.com</email>
+                <phone>3184694601</phone>
+                <birthday>8/21/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <funfacts>3 kids, 7 grandchildren . . . Oldest is a girl and the other 6 are boys!</funfacts>
+                <Occupation>3 kids, 7 grandchildren . . . Oldest is a girl and the other 6 are boys!</Occupation>
+                <Ministry>Teaches Women’s Bible Study every Tuesday</Ministry>
+                <Ministry>Providence House</Ministry>
+                <Ministry> Core</Ministry>
+                <Ministry>LACG</Ministry>
+            </member>
+        </family>
+        <family name="ARMENTROUT, Herb and Jana">
+            <Address>7716 Tampa Way</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105-5702</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Herb</firstname>
+                <lastname>Armentrout</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>herba@moor.church</email>
+                <phone>3186177766</phone>
+                <birthday>12/27/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employment/Ministry Worship Pastor, BBC</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Employment/Ministry Worship Pastor, BBC</funfacts>
+            </member>
+            <member>
+                <firstname>Jana</firstname>
+                <lastname>Armentrout</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>janalee@bellsouth.net</email>
+                <phone>3182942202</phone>
+                <birthday>3/9/61</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Broadmoor Baptist Weekday Preschool Ministry Involvement Music Ministry Fun Facts/Hobbies 3 children: Jordan (Katie) Casey (Cory) Kirsten (Eric) 4 grandchildren - Drake &amp; Dakota (Jordan) Camille &amp; Caroline (Casey)</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Retired Broadmoor Baptist Weekday Preschool Ministry Involvement Music Ministry Fun Facts/Hobbies 3 children: Jordan (Katie) Casey (Cory) Kirsten (Eric) 4 grandchildren - Drake &amp; Dakota (Jordan) Camille &amp; Caroline (Casey)</funfacts>
+            </member>
+        </family>
+        <family name="BECK, Jim and Glenda">
+            <Address>102 Woodrun Place</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71111</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Jim</firstname>
+                <lastname>Beck</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>jimb3966@gmail.com</email>
+                <phone>9046084376</phone>
+                <birthday>10/3/56</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Itinerant Music Specialist-Specializing in Percussion - Caddo Schools. Retired as Band Director from Clay County Schools, Green Cove Springs, FL. Church Orchestra Director, Kernan Baptist, Jacksonville, FL 21 years of service.</Occupation>
+                <Ministry>Plays percussion the the Broadmoor Orchestra</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Glenda</firstname>
+                <lastname>Beck</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>nolesmom2@yahoo.com</email>
+                <phone>3183137541</phone>
+                <birthday>6/1/57</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Office Manager at Hargrove, Smelley &amp; Strickland, Law Firm in downtown Shreveport. Previous: Full Time Ministry Assistant for Finance and Membership at Kernan Baptist for 20 years.</Occupation>
+                <Ministry>Plays clarinet in the Broadmoor Orchestra</Ministry>
+                <funfacts>4 children: Brian, in Heaven, Brad (Amy) - Colorado Springs, Stephen (Lauren) - West Palm Beach - formerly Bossier City, Katie (Peter) - Hattiesburg, 8 grandchildren. Glenda likes to quilt, scrapbook, and cross stitch and occasionally teaches beginning quilting classes. Jim likes golf and watching sporting events as well as music events.</funfacts>
+            </member>
+        </family>
+        <family name="BOLTON, David and Debbie">
+            <Address>1524 Dora Ann Place</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>David</firstname>
+                <lastname>Bolton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>jdavid917@gmail.com</email>
+                <phone>3182107097</phone>
+                <birthday>9/17/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Currently Self employed - Lawn Care Company</Occupation>
+                <Ministry>Various ways over the years: music ministry, men’s bible study, Kairos Prison Ministry, Louisiana Methodist Cursillo, Youth Volunteer</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Bolton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dbolton59@gmail.com</email>
+                <phone>3183930308</phone>
+                <birthday>7/24/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Speech Pathologist with Caddo Public Schools</Occupation>
+                <Ministry>Various ministries over the years: Children, Youth, Welcome Ministry, Women’s Ministry, BSF, LA Methodist Cursillo Fun Facts/Hobbies 2 daughters: Rebecca Posey (Stephen) and Liz Navarre (Jared) 5 Grandchildren: Parker, Peyton, Lawson, Sutton, and Collins</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="BOWIE, Scott and Shanne">
+            <Address>115 Marrero Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-2727</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Scott</firstname>
+                <lastname>Bowie</lastname>
+                <familyrole>Spouse</familyrole>
+                <email></email>
+                <phone>3187989864</phone>
+                <birthday>1/26/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Shanne</firstname>
+                <lastname>Bowie</lastname>
+                <familyrole>Spouse</familyrole>
+                <email></email>
+                <phone>3187989864</phone>
+                <birthday>12/17/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>B</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="CARMICHAEL, Eddie and Lynn">
+            <Address>514 Americas Way #19441</Address>
+            <City>Box Elder</City>
+            <State>SD</State>
+            <Zip>57719</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Eddie</firstname>
+                <lastname>Carmichael</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>jeddiecarmichael@gmail.com</email>
+                <phone>7192299330</phone>
+                <birthday>9/25/1960</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired in 2006 after serving 21 years as a USAF missile maintainer. Second retirement in 2022 after serving 11 years as a DOD Civilian Employee. Currently working as a Minuteman III Chronicler for Tetra Tech.</Occupation>
+                <Ministry>Orchestra; Deacons</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Lynn</firstname>
+                <lastname>Carmichael</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>Kidowe66@gmail.com</email>
+                <phone>7192299331</phone>
+                <birthday>11/6/1966</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired in 2022 after 10 years of service as Ministry Assistant at Broadmoor Baptist Church.</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts>We have two children: Our son, Matthew, is married to Victoria and lives in Harahan, LA. Our daughter, Sarah, is married to Garrett and lives in Bossier, LA, with our most perfect grandchild, Millie. We sold our home in 2021 and moved into our 42’ fifth wheel and live as full- time RVers traveling the country sightseeing, visiting friends and family, and serving the Lord wherever He takes us. We enjoy most any activity as long as we can do it together.</funfacts>
+            </member>
+        </family>
+        <family name="CARROLL, Jo">
+            <Address>112 Arbor Lane</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-2911</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Jo</firstname>
+                <lastname>Carroll</lastname>
+                <familyrole>Member</familyrole>
+                <email>jcarroll2226@gmail.com</email>
+                <phone>3184692421</phone>
+                <birthday>7/26/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from Department of Educations as regional early childhood coordinator. Currently teach Steam classes for our weekday preschool and contract work with a charter school CASA VOLUNTEER, TBRI Advocate, Consultant - Early Childhood</Occupation>
+                <Ministry>Teach 1st grade, teach new Christian’s class for children, SHIFT (Grief Share for children, facilitate 2 Bible Studies, participate in BSF on line, Discipleship Group, Wedding guild, Committee on Committees.</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="CARTER, Alan and Cindy">
+            <Address>540 Turkey Trail</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-9537</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Alan</firstname>
+                <lastname>Carter</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>alanbcarter540@gmail.com</email>
+                <phone>3183476076</phone>
+                <birthday>9/12/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from Caddo Parish School Board</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Cindy</firstname>
+                <lastname>Carter</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>ccarter540@gmail.com</email>
+                <phone>3184695316</phone>
+                <birthday>12/30/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from VA Medical Center</Occupation>
+                <Ministry>Love serving on mission trips, especially Mexico Medical trip</Ministry>
+                <funfacts>We have 3 grown married children!! Sons Ryan (Margaret) in Lake Charles, Trey (Virginia) in Shreveport and our daughter Brooke (Stephen) in Frisco, TX. We have 6 grandchildren and one on the way (due April, 2024) and we love keeping them as much as they will let us! Alan - even though retired, he keeps going back to coaching football! He also enjoys fly fishing and hiking. We love camping, especially with the grandkids! Cindy: I love doing mission work and would live at the beach if grandkids were there too!</funfacts>
+            </member>
+        </family>
+        <family name="COFFMAN, Cliff and Dianne">
+            <Address>565 Oneonta Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-1619</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Dianne</firstname>
+                <lastname>Coffman</lastname>
+                <familyrole>Member</familyrole>
+                <email>d2coffman@comcast.net</email>
+                <phone>3184269620</phone>
+                <birthday>9/28/1945</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Willis Knighton</Occupation>
+                <Ministry>English Second Language, Guest Services at BBC, Missions, Breast Cancer Advocate</Ministry>
+                <funfacts>2 children and 6 grandchildren who live in walking distance to our house. We love reading, spending time with them, playing, carpooling and sleepovers. Hobbies are reading, exercising, fly fishing and gardening.</funfacts>
+            </member>
+        </family>
+        <family name="COMPTON, Al and Mary">
+            <Address>810 Chartres Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-3888</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Al</firstname>
+                <lastname>Compton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>compt8512@gmail.com</email>
+                <phone>3185254544</phone>
+                <birthday>5/12/52</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Mary</firstname>
+                <lastname>Compton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>compt1229@gmail.com</email>
+                <phone>4329341767</phone>
+                <birthday>12/29/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>2 children - Alice, David; 3 grandchildren - Kate, Gus, and Beth Mary - love working out, aerobics, walking, cooking, reading, getting together with family. Al - reading, golf, cooking, traveling with Mary, being with grandkids and family.</Occupation>
+                <Ministry>Women’s Bible Study</Ministry>
+                <funfacts>2 children - Alice, David; 3 grandchildren - Kate, Gus, and Beth Mary - love working out, aerobics, walking, cooking, reading, getting together with family. Al - reading, golf, cooking, traveling with Mary, being with grandkids and family.</funfacts>
+            </member>
+        </family>
+        <family name="COOK, James and Lisa">
+            <Address>551 Turkey Trail</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-9538</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>James</firstname>
+                <lastname>Cook</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>jrcook2gm@gmail.com</email>
+                <phone>3182101699</phone>
+                <birthday>9/14/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed by Sealy &amp; Company, LLC</Occupation>
+                <Ministry>Deacon, Substitute teacher for Bill Alexander</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Lisa</firstname>
+                <lastname>Cook</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>lpcook@comcast.net</email>
+                <phone>3184266648</phone>
+                <birthday>11/21/62</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed by Willis Knighton</Occupation>
+                <Ministry>Weekly Women’s Bible Study Group, D Group</Ministry>
+                <funfacts>40th anniversary - June 5, 2022 2 children: Jennifer &amp; James III; 3 granddaughters: Eloise, Lorelei, Emma; 1 grandson: James IV. Lisa - Reading &amp; sewing; James - Hunting, fishing, golf &amp; reading. We like to travel together.</funfacts>
+            </member>
+        </family>
+        <family name="CRAIN, Jan">
+            <Address>801 Unadilla</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Jan</firstname>
+                <lastname>Crain</lastname>
+                <familyrole>Member</familyrole>
+                <email>crainjanh@gmail.com</email>
+                <phone>3184221021</phone>
+                <birthday>10/29/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>I worked for the State Office of Juvenile Services as a Juvenile Probation and Parole Officer, Supervisor, and Program Specialist until I retired in 2014.</Occupation>
+                <Ministry>I teach 3rd grade small group, the Children’s New Christians Class, lead a Discipleship Group, participate in a weekly Bible study, 3rd grade VBS director, volunteer in the library at church and at Ascension Classical School, and lead the Grief Share day program. I serve on the Board of Directors at Rutherford House (group home for troubled youth) and serve on the PTO Board at Ascension Classical School.</Ministry>
+                <funfacts>I was married to Steve Crain from 1973 until 2011, when he passed away. I love studying the Bible, cooking and spending time with grandchildren. D</funfacts>
+            </member>
+        </family>
+        <family name="DILLARD, Debbie">
+            <Address>2052 Fairwoods Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Dillard</lastname>
+                <familyrole>Member</familyrole>
+                <email>debbie@rcfinsurance.com</email>
+                <phone>3187985122</phone>
+                <birthday>5/21/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="EBARB, Danny and Betsy">
+            <Address>933 Monrovia Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Danny</firstname>
+                <lastname>Ebarb</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dannyebarb@yahoo.com</email>
+                <phone>3185739555</phone>
+                <birthday>1/25/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from Pfizer pharmaceutical</Occupation>
+                <Ministry>Preschool Small Group Teacher; Choir prison ministry</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Betsy</firstname>
+                <lastname>Ebarb</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>beebarb57@yahoo.com</email>
+                <phone>3185739182</phone>
+                <birthday>9/7/57</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed at Theater School of Dance, Retired from Caddo Parish Schools</Occupation>
+                <Ministry>Preschool Small Group Teacher; Choir</Ministry>
+                <funfacts>2 daughters – Sarah and Christina; One son in law - Rett Thomas, and one grandson, Thomas. We love to camp, hike, paddle, walk - all things outdoors</funfacts>
+            </member>
+        </family>
+        <family name="FARGERSON, Shawn and Sandra">
+            <Address>2207 Landau Lane</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71111</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Shawn</firstname>
+                <lastname>Fargerson</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gsfargerson@yahoo.com</email>
+                <phone>3189901255</phone>
+                <birthday>1/12/63</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Realtor, Coldwell Banker Gosslee</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Sandra</firstname>
+                <lastname>Fargerson</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>sandrafargerson@yahoo.com</email>
+                <phone>3189901266</phone>
+                <birthday>7/9/67</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Sandra Fargerson Counseling</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts>Shawn - While we lived in Alabama (1995-2006) I served eight years on Madison County Board of Education. In recent years have been acting in community theater. Sandra - DIYer, Thrifter</funfacts>
+            </member>
+        </family>
+        <family name="FERRERO, Mary">
+            <Address>2124 Kayden Jay Drive</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71112</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Mary</firstname>
+                <lastname>Ferrero</lastname>
+                <familyrole>Member</familyrole>
+                <email>missmarynla@gmail.com</email>
+                <phone>3185609711</phone>
+                <birthday>4/8/66</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Best Yet Storage</Occupation>
+                <Ministry>Former Missionary in Argentina; Orchestra and Hispanic ministry</Ministry>
+                <funfacts>My favorite thing to do is to spend time with family/friends. But I also love to go on hikes through nature trails; or go canoeing &amp; visit new places.</funfacts>
+            </member>
+        </family>
+        <family name="GAITHER, Conard and Betty">
+            <Address>248 Eagle Bend Way</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Conard</firstname>
+                <lastname>Gaither</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>conardgaither@gmail.com</email>
+                <phone>3185472011</phone>
+                <birthday>12/31/48</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Betty</firstname>
+                <lastname>Gaither</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gaitherbetty@att.net</email>
+                <phone>3184500481</phone>
+                <birthday>12/07/46</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="GRESENS, Leonard and Denise">
+            <Address>1115 Carolyn Court</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Leonard</firstname>
+                <lastname>Gresens</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>leonard.gresens@gmail.com</email>
+                <phone>3188690698</phone>
+                <birthday>1/11/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Denise</firstname>
+                <lastname>Gresens</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>mgracefan1@aol.com</email>
+                <phone>3184707596</phone>
+                <birthday>7/3/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="HACKNEY, David and Susan">
+            <Address>9660 Railsback Ridge Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>David</firstname>
+                <lastname>Hackney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>davehackcvx@gmail.com</email>
+                <phone>3182101475</phone>
+                <birthday>5/22/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Chevron</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Susan</firstname>
+                <lastname>Hackney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>sumachack@gmail.com</email>
+                <phone>9853734731</phone>
+                <birthday>11/15/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Four grown daughters, three are married. Three grandsons We lived in Lagos, Nigeria for 6 years, also 3-1/2 years in Trinidad &amp; Tobago</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Four grown daughters, three are married. Three grandsons We lived in Lagos, Nigeria for 6 years, also 3-1/2 years in Trinidad &amp; Tobago</funfacts>
+            </member>
+        </family>
+        <family name="HAILEY, Rick and Debi">
+            <Address>1027 Winterberry Lane</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Rick</firstname>
+                <lastname>Hailey</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rhshreveport@aol.com</email>
+                <phone>3185645584</phone>
+                <birthday>4/4/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Debi</firstname>
+                <lastname>Hailey</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>djwhailey@aol.com</email>
+                <phone>3184233811</phone>
+                <birthday>7/20/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="HALBROOK, Rose">
+            <Address>2027 River Road</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Rose</firstname>
+                <lastname>Halbrook</lastname>
+                <familyrole>Member</familyrole>
+                <email>rose.halbrook@att.net</email>
+                <phone>3184554244</phone>
+                <birthday>04/05/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Director of Nuclear Medicine @ WKHS</Occupation>
+                <Ministry>Caring for those who are sick I have 2 daughters - both married - 2 grandkids. I enjoy outdoor gardening - plants and flowers - any water activities. I like music festivals and fast cars. I love spending time with my family.</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="HALL, Vicky">
+            <Address>8970 Meadow Creek Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71129</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Vicky</firstname>
+                <lastname>Hall</lastname>
+                <familyrole>Member</familyrole>
+                <email>hall.vickycolvin@gmail.com</email>
+                <phone>3188209307</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>LSU HSC</Occupation>
+                <Ministry>Choir, Children’s Small Group, Shift, ESL</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="HANKINS, Buddy and Gail">
+            <Address>7615 Creswell Road</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Buddy</firstname>
+                <lastname>Hankins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>buddyhankins@gmail.com</email>
+                <phone>3184642449</phone>
+                <birthday>8/11/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Minister &amp; Retired Educator</Occupation>
+                <Ministry>Greeter Ministry</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Gail</firstname>
+                <lastname>Hankins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gailhankins@gmail.com</email>
+                <phone>3182187885</phone>
+                <birthday>2/25/50</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Children’s Minister @ BBC</Occupation>
+                <Ministry>Greeter Ministry</Ministry>
+                <funfacts>6 Grandchildren in town. Gail - Pickleball &amp; reading, Buddy - Pickleball</funfacts>
+            </member>
+        </family>
+        <family name="HATHORN, Dave Ginny">
+            <Address>179 Richard Avenue</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Dave</firstname>
+                <lastname>Hathorn</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dave.hathorn@yahoo.com</email>
+                <phone>9184091939</phone>
+                <birthday>9/13/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>State Farm</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Ginny</firstname>
+                <lastname>Hathorn</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>ginny.hathorn@yahoo.com</email>
+                <phone>9184075148</phone>
+                <birthday>9/23/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>“House of Hathorn”</Occupation>
+                <Ministry></Ministry>
+                <funfacts>9 grandkids</funfacts>
+            </member>
+        </family>
+        <family name="HOLCOMBE, Christy">
+            <Address>9534 Pine Cove Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71118</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Christy</firstname>
+                <lastname>Holcombe</lastname>
+                <familyrole>Member</familyrole>
+                <email>mcholcombe@gmail.com</email>
+                <phone>3182301006</phone>
+                <birthday>6/13/1971</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Associate Director at Shreveport BCM &amp; SLP with Early Steps</Occupation>
+                <Ministry>Orchestra/Praise Band; VBS Teacher</Ministry>
+                <funfacts>I have a dog. I enjoy working jigsaw puzzles, working in the yard, and learning new things!</funfacts>
+            </member>
+        </family>
+        <family name="HOPKINS, Devone and Beth and Ted and Tracie">
+            <Address>324 Sweetleaf Avenue</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Devone</firstname>
+                <lastname>Hopkins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>devonehopkins@gmail.com</email>
+                <phone>3184261650</phone>
+                <birthday>12/18/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Beth</firstname>
+                <lastname>Hopkins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>bethhopkins59@gmail.com</email>
+                <phone>3184269096</phone>
+                <birthday>11/1/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="KEYS, Ted and Tracie">
+            <Address>8400 Dogwood Trail</Address>
+            <City>Haughton</City>
+            <State>LA</State>
+            <Zip>71037-9326</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Ted</firstname>
+                <lastname>Hopkins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>ted@tedkeys.com</email>
+                <phone>3182864545</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Tracie</firstname>
+                <lastname>Hopkins</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>traciekeys@gmail.com</email>
+                <phone>3182861308</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts>K</funfacts>
+            </member>
+        </family>
+        <family name="LILLEY, Doug and Kathy">
+            <Address>924 Ontario Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-1151</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Doug</firstname>
+                <lastname>Lilley</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>douglilley@comcast.net</email>
+                <phone>3187728425</phone>
+                <birthday>2/13/56</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Anesthesiologist @ Shriner’s Hospital for Children</Occupation>
+                <Ministry>Choir, Singing Men’s Choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Kathy</firstname>
+                <lastname>Lilley</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>kathy.lilley@comcast.net</email>
+                <phone>3187738426</phone>
+                <birthday>1/27/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Special Ed Teacher</Occupation>
+                <Ministry>Broadmoor STEM Academy, Choir</Ministry>
+                <funfacts>Doug - Cabin Keeper Kathy - Decorating, Party Person, BSF, Grandmother!</funfacts>
+            </member>
+        </family>
+        <family name="LUKE, Sharon">
+            <Address>7202 Camelback Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Sharon</firstname>
+                <lastname>Luke</lastname>
+                <familyrole>Member</familyrole>
+                <email>sharongluke@yahoo.com</email>
+                <phone>3189909948</phone>
+                <birthday>7/16/1950</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed/Retired Retired Teacher I have six grandchildren and one great grandchild I have two children. My daughter lives in Keithhville. My son, Chuck, lives overseas My husband was a pastor. I Love to read, embroidery, do adult dot to dot, go to the movies, pick pecans in season, and most important, chill out.</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Employed/Retired Retired Teacher I have six grandchildren and one great grandchild I have two children. My daughter lives in Keithhville. My son, Chuck, lives overseas My husband was a pastor. I Love to read, embroidery, do adult dot to dot, go to the movies, pick pecans in season, and most important, chill out.</funfacts>
+            </member>
+        </family>
+        <family name="MCFERRIN, Laura">
+            <Address>434 Ratcliff Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71104</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Laura</firstname>
+                <lastname>Mcferrin</lastname>
+                <familyrole>Member</familyrole>
+                <email>laura.mcferrin@yahoo.com</email>
+                <phone>3185189198</phone>
+                <birthday>6/27/64</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed/Retired Self-employed Child and Family Therapist Two wonderful sons: Coleman (Laura) and Hunter Future Grandchildren: On the prayer list! I enjoy cooking, gardening, and reading M</Occupation>
+                <Ministry>Heart of Hope Ministries</Ministry>
+                <funfacts>Employed/Retired Self-employed Child and Family Therapist Two wonderful sons: Coleman (Laura) and Hunter Future Grandchildren: On the prayer list! I enjoy cooking, gardening, and reading M</funfacts>
+            </member>
+        </family>
+        <family name="MCGIVNEY, Ken and Sharon">
+            <Address>7330 Fern Avenue, Bldg. 704</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Ken</firstname>
+                <lastname>Mcgivney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>ken.mcgivney@gmail.com</email>
+                <phone>3182185570</phone>
+                <birthday>10/29/56</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Sharon</firstname>
+                <lastname>Mcgivney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>semcgivney2@gmail.com</email>
+                <phone>3182220941</phone>
+                <birthday>1/9/57</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="McGuirt, Mike and Lisa">
+            <Address>3315 Jonathan Edwards Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71119</Zip>
+            <Picture>McGuirt.jpg</Picture>
+            <member>
+                <firstname>Mike</firstname>
+                <lastname>McGuirt</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>2mcguirts@comcast.net</email>
+                <phone>3187514382</phone>
+                <birthday>11/7/1953</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture>mikemcguirt.jpg</Picture>
+                <Occupation>Analyst with Centurylink, work from home</Occupation>
+                <Ministry>Substitute teacher for Bill Alexander</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Lisa</firstname>
+                <lastname>McGuirt</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>2mcguirts@comcast.net</email>
+                <phone>3184698548</phone>
+                <birthday>4/10/1954</birthday>
+                <role>Maintainer</role>
+                <passwordHash></passwordHash>
+                <Picture>lisamcguirt.jpg</Picture>
+                <Occupation>Executive Assistant @ Bethany Camp and Conference Center</Occupation>
+                <Ministry></Ministry>
+                <funfacts>3 Sons: Matthew (Kim); Adam (April); Jacob. 5 Grandchildren - Caleb &amp; Chase (Matthew); Lily, Sophie, Emily (Adam) Mike - Fishing, Woodworking Lisa -</funfacts>
+            </member>
+        </family>
+        <family name="MEANEY, Bill and Sandee and Gary and Karen">
+            <Address>2844 Tuscany Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-8415</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Bill</firstname>
+                <lastname>Meaney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>wmeaney@comcast.net</email>
+                <phone>3184267667</phone>
+                <birthday>2/24/48</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Semi-Retired Petroleum Geologist</Occupation>
+                <Ministry>Deacon, Participates in mission trips/projects, Discover Broadmoor Encourager</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Sandee</firstname>
+                <lastname>Meaney</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>smeaney@comcast.net</email>
+                <phone>3184701581</phone>
+                <birthday>7/6/52</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Creative Memories Consultant/Advisor</Occupation>
+                <Ministry>Mission trips/projects, Discover Broadmoor Encourager, Before I Say I Do Mentors</Ministry>
+                <funfacts>Celebrated Golden Anniversary on August 12, 2022 3 kids—David (Amy), Jonathan (Autumn), Trisha (Ryan) 10 grandkids - 5 boys, 5 girls We enjoy Friday Date Nights (especially at the movies with popcorn &amp; Diet Coke), spending time with our family, traveling together, good food, &amp; doing our BSF lessons together. Bill loves the water &amp; boats—especially sailing. Sandee enjoys cross stitching (her therapy), sewing, scrapbooking, &amp; Nana Camp MOORE 134 Juli Lane Benton , LA 71006</funfacts>
+            </member>
+        </family>
+        <family name="MILAM, Judy"  >
+            <Address>1525 Cambridge Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105-5003</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Judy</firstname>
+                <lastname>Milam</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>judycmilam@yahoo.com</email>
+                <phone>3188349231</phone>
+                <birthday>5/8/50</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Church Library Retired from Caddo Parish Schools - Librarian Department of Education - School Improvement Specialist</Occupation>
+                <Ministry>Taught 3rd Graders 25 years, Gideon Auxiliary</Ministry>
+                <funfacts>2 children, 4 grandchildren. Reading</funfacts>
+            </member>
+        </family>
+        <family name="MOORE, Gary">
+            <Address>134 Juli Lane</Address>
+            <City>Benton</City>
+            <State>LA</State>
+            <Zip>71006</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Gary</firstname>
+                <lastname>Moore</lastname>
+                <familyrole>Self</familyrole>
+                <email>sagacity10@bellsouth.net</email>
+                <phone>3182865986</phone>
+                <birthday>8/4/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="MOORE, T-Willie"  >      
+            <Address>828 Robards Street</Address>
+                <City>Shreveport</City>
+                <State>LA</State>
+                <Zip>71105-2234</Zip>
+                <Picture></Picture>
+            <member>
+                <firstname>T-Willie</firstname>
+                <lastname>Moore</lastname>
+                <familyrole>Member</familyrole>
+                <email>twillie2000@aol.com</email>
+                <phone>3185720207</phone>
+                <birthday>4/7/47</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired - Tutors Math part-time for 25+ years @ BBC</Occupation>
+                <Ministry>Teach 3rd grade small group</Ministry>
+                <Ministry>deacon</Ministry>
+                <funfacts>Married 51 years to June who passed away 8/24/23. 2 daughters, 2 sons-in-law 7 grandchildren [3 in Frisco, TX; 4 in Summerville, SC]</funfacts>
+            </member>
+        </family>
+        <family name="MORITZ, Mike and Sheri">
+            <Address>7112 E Ridge Dr</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-4749</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Mike</firstname>
+                <lastname>Moritz</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>sm@ragllc.net</email>
+                <phone>3188208794</phone>
+                <birthday>7/17/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Sheri</firstname>
+                <lastname>Moritz</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>sm@ragllc.net</email>
+                <phone>3188208792</phone>
+                <birthday>3/22/50</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="PACE, Joyce">
+            <Address>326 Wilder Pl</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71104-4528</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Joyce</firstname>
+                <lastname>Pace</lastname>
+                <familyrole>Member</familyrole>
+                <email>joycenpace@gmail.com</email>
+                <phone>3182187619</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry>GriefShare, Choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="PATTERSON, Mike">
+            <Address>9013 Mitcham St</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-7983</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Mike</firstname>
+                <lastname>Patterson</lastname>
+                <familyrole>Member</familyrole>
+                <email>mikepb3858@aol.com</email>
+                <phone>3185186005</phone>
+                <birthday>3/8/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>US Military/Army</Occupation>
+                <Ministry>Music Ministry - Choir</Ministry>
+                <funfacts>“I love ice cream. Any ice cream. I just love ice cream.”</funfacts>
+            </member>
+        </family>
+        <family name="PATTON, Steve and Sherri">
+            <Address>4426 Richmond Avenue</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-1420</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Steve</firstname>
+                <lastname>Patton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>srpattonmd@gmail.com</email>
+                <phone>3182086419</phone>
+                <birthday>7/5/50</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Internal Medicine/Nephrology</Occupation>
+                <Ministry>Deacon, Golf Cart Ministry, Medical missions</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Sherri</firstname>
+                <lastname>Patton</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>srpattonmd@yahoo.com</email>
+                <phone>3183930875</phone>
+                <birthday>5/29/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Teaching</Occupation>
+                <Ministry>English as a Second Language, VBS, Children’s Small Group sub, Missions</Ministry>
+                <funfacts>High School sweethearts. 3 sons, 3 daughters, and 9 grandchildren Steve - Golf, New gardener since retirement Sherri - Babysitting and shuttling grandkids, Book Club</funfacts>
+            </member>
+        </family>
+        <family name="PAYNE, Donna">
+            <Address>9115 Sorrento Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-3748</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Donna</firstname>
+                <lastname>Payne</lastname>
+                <familyrole>Member</familyrole>
+                <email>dpayne709@yahoo.com</email>
+                <phone>3183933262</phone>
+                <birthday>5/14/57</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed at First Baptist Church School</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts>3 daughters; 3 grandchildren Hobbies - Tennis, Reading</funfacts>
+            </member>
+        </family>
+        <family name="PETREE, Michael and Reneé">
+            <Address>1070 Waters Edge Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-7776</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Michael</firstname>
+                <lastname>Petree</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>mlpetree@aol.com</email>
+                <phone>3182071161</phone>
+                <birthday>11/22/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Records Management Center</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Reneé</firstname>
+                <lastname>Petree</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>reneepetree@gmail.com</email>
+                <phone>3184583221</phone>
+                <birthday>7/11/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Distribution Center</Occupation>
+                <Ministry></Ministry>
+                <funfacts>3 Sons; 3 Granddaughters; 1 Grandson</funfacts>
+            </member>
+        </family>
+        <family name="PONDER, Gary and Nancy">
+            <Address>2304 Belle Grove</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71111</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Gary</firstname>
+                <lastname>Ponder</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>ponderpower@suddenlinkmail.com</email>
+                <phone>3188203014</phone>
+                <birthday>10/1/49</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Ponder Power Equipment</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Nancy</firstname>
+                <lastname>Ponder</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>nponder@suddenlinkmail.com</email>
+                <phone>3188203012</phone>
+                <birthday>2/21/52</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Ponder Power Equipment</Occupation>
+                <Ministry>Church Organist, Orchestra, Choir, Middle School Choir</Ministry>
+                <funfacts>We have two children and most importantly four grandchildren - three girls and one boy. Between work, church, and grandkids we are both busy, busy, busy!!!</funfacts>
+            </member>
+        </family>
+        <family name="POURCIAU, Chuck and Tracy">
+            <Address>5200 Dixie Garden Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Chuck</firstname>
+                <lastname>Pourciau</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>chuck@moor.church</email>
+                <phone>3188686552</phone>
+                <birthday>9/2/61</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Broadmoor Baptist</Occupation>
+                <Ministry>Senior pastor; Chairman, Board of Trustees for the SBC International Mission Board</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Tracy</firstname>
+                <lastname>Pourciau</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>twpslp@gmail.com</email>
+                <phone>3182187384</phone>
+                <birthday>4/19/62</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Speech/language pathologist; babysit grandchildren</Occupation>
+                <Ministry>Discover Broadmoor; Preschool Ministry; supports foster parents in our church; International Mission Board Trustee spouse</Ministry>
+                <funfacts>Chuck - Hunts, gardens, keeps bees, reads, rides bikes, trying to golf Tracy - Reads, kills Chuck's garden, bottles honey, rides bikes, likes old movies, interested in low carb and gluten free cooking, and "all other duties assigned by the pastor :-)"</funfacts>
+            </member>
+        </family>
+        <family name="POWELL, Dick and Nancy">
+            <Address>7435 Camelback Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Dick</firstname>
+                <lastname>Price</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rpowell54@mac.com</email>
+                <phone>3182940847</phone>
+                <birthday>12/04/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Former Minister of Music Woodridge Baptist Church</Occupation>
+                <Ministry>Choir / music</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Nancy</firstname>
+                <lastname>Price</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>mimi0905@comcast.net</email>
+                <phone>3182940849</phone>
+                <birthday>09/05/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Nursing</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts>Daughter Anne, married to Frank Valenzano (Church planter) 3 Gkids - Abigail, Ethan and Deacon (they adopted him from Ethiopia) Son Nathan-married to Amanda Dirks (Worship Leader in Siloam Springs, AR) 2 Gkids-Meredith and Emilia. We do have a precious Schnauzer named Charlie- she runs the house. We both love our family dearly and visit as often as we can. Dick - music, classical guitar, writing and arranging music, reading, has published a book and currently working on one for a friend, does the NYT wordle daily and enjoys Sudoku - he also enjoys cooking-makes a mean gumbo Nancy - gardening and flowers (just digging in the dirt)- sewing and quilting, Antiques (the rusty dusty kind), reading, painting, mahjong and attempting Wordle and Sudoku</funfacts>
+            </member>
+        </family>
+        <family name="POWELL, Gerald and Mary">
+            <Address>6201 Kathy Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105-4401</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Gerald</firstname>
+                <lastname>Powell</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gpowell143@aol.com</email>
+                <phone>3183472364</phone>
+                <birthday>7/22/53</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Mary</firstname>
+                <lastname>Powell</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gpowell143@aol.com</email>
+                <phone>3183475408</phone>
+                <birthday>1/12/54</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Camping in our motor coach</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Camping in our motor coach</funfacts>
+            </member>
+        </family>
+        <family name="PRICE, Dick and Trisha">
+            <Address></Address>
+            <City></City>
+            <State></State>
+            <Zip></Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Dick</firstname>
+                <lastname>Price</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dtprice123@gmail.com</email>
+                <phone>3184694736</phone>
+                <birthday>2/2/46</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>US Air Force &amp; International Mission Board</Occupation>
+                <Ministry>Pastoral Counselor at Haynes Avenue Baptist Church; BBC choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Trisha</firstname>
+                <lastname>Price</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dtprice123@gmail.com</email>
+                <phone>3186708440</phone>
+                <birthday>8/16/46</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from International Mission Board</Occupation>
+                <Ministry>BBC Choir</Ministry>
+                <funfacts>2 kids, 3 grandkids We both like to sing and both enjoy using Spanish with BBC Hispanic Ministry </funfacts>
+            </member>
+        </family>
+        <family name="QUINN, Tim and Leslie">
+            <Address>836 Ontario Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Tim</firstname>
+                <lastname>Quinn</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>tim.quinn2000@gmail.com</email>
+                <phone>3185723271</phone>
+                <birthday>6/22/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed by Argent Trust Company</Occupation>
+                <Ministry>Deacon, Budget Committee</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Leslie</firstname>
+                <lastname>Quinn</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>lquinncecd@gmail.com</email>
+                <phone>3185723276</phone>
+                <birthday>3/17/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from Office of Mike Johnson, U.S. Congressman, 4th District</Occupation>
+                <Ministry>Properties Committee</Ministry>
+                <funfacts>2 grown daughters: Meagan Stoll (works at BBC); Meredith Quinn, Wedding Consultant, Austin, TX. 2 granddaughters: Avery and Finley. We both enjoy reading &amp; traveling in the U.S. and overseas. Leslie enjoys reading and gardening, Tim - Watching NASCAR, in addition to his search for a real hobby.</funfacts>
+            </member>
+        </family>
+        <family name="RANEY, Ron">
+            <Address>113 Maximillian Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115-3832</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Ron</firstname>
+                <lastname>Raney</lastname>
+                <familyrole>Member</familyrole>
+                <email>reraney@comcast.net</email>
+                <phone>3184589334</phone>
+                <birthday>12/30/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Attorney with Lunn Irion Law Firm, 40+ years</Occupation>
+                <Ministry>Deacon, also Tuesday Night Deacon Visitation Group; Occasional substitute teacher for Bill Alexander</Ministry>
+                <funfacts>Reading, movies, walking, grilling, eating out.</funfacts>
+            </member>
+        </family>
+        <family name="RAY, Bill and Candy">
+            <Address>707 Cobblestone Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-7207</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Bill</firstname>
+                <lastname>Ray</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>BillRay707@gmail.com</email>
+                <phone>3188342487</phone>
+                <birthday>6/15/56</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Teaches at Word of God Academy and La Tech Barksdale</Occupation>
+                <Ministry>Adult Choir and Praise Team</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Candy</firstname>
+                <lastname>Ray</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>CandyRay707@gmail.com</email>
+                <phone>3188342488</phone>
+                <birthday>1/14/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from pharmaceuticals sales. Part-time contract</Occupation>
+                <Ministry>Volunteer</Ministry>
+                <funfacts>3 children, 4 grandchildren We enjoy traveling, pickleball, tennis (Candy)</funfacts>
+            </member>
+        </family>
+        <family name="REEVES, Robert and Tina">
+            <Address>318 Oriole Lane</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Robert</firstname>
+                <lastname>Reeves</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>tinareeves@att.net</email>
+                <phone>8705106580</phone>
+                <birthday>10/29/57</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>G&amp;R Manufactured Solutions &amp; Double R Equipment Sales</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Tina</firstname>
+                <lastname>Reeves</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>tinareeves@att.net</email>
+                <phone>8708184029</phone>
+                <birthday>2/1/67</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>G&amp;R Manufactured Solutions &amp; Double R Equipment Sales</Occupation>
+                <Ministry></Ministry>
+                <funfacts>We have 4 grandsons. When we aren’t on the road traveling for business, we are on the road visiting the grands</funfacts>
+            </member>
+        </family>
+        <family name="REEVES, Rodney and Becky">
+            <Address>2035 Bridgewater</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-8548</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Rodney</firstname>
+                <lastname>Reeves</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rreeves_sport1@comcast.net</email>
+                <phone>3184557138</phone>
+                <birthday>12/20/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired from State of Louisiana</Occupation>
+                <Ministry>Greeter, Friendship Outreach, Meal Train, Choir Mission Trip, Substitute Teacher And Extended Care Teacher in Inspirations Special Needs class</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Becky</firstname>
+                <lastname>Reeves</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rreeves_sport1@comcast.net</email>
+                <phone>3184532361</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired as Speech-Language Pathologist in 2010</Occupation>
+                <Ministry>Sunday School Teacher For 41 years in the Special Needs Inspirations class, Extended Care For Inspirations Sunday School class, Meal Train, Choir Mission trip, Bible Study Group</Ministry>
+                <funfacts>Son-Dr. Rodney Reeves, Cardiologist, 3 Grandchildren-Luke, Sadie, and Maggie. Rodney - Enjoy working out, Becky - Enjoy reading, walking, We both enjoy keeping Grandchildren frequently!!!</funfacts>
+            </member>
+        </family>
+        <family name="ROZEMAN, Phillip and Alma">
+            <Address>510 Longleaf Road</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-1224</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Phillip</firstname>
+                <lastname>Rozeman</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>phillip.rozeman@gmail.com</email>
+                <phone>3184267401</phone>
+                <birthday>5/17/56</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Cardiologist at WK(North)</Occupation>
+                <Ministry>Deacon (not active)</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Alma</firstname>
+                <lastname>Rozeman</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>aprozeman@aol.com</email>
+                <phone>3184267402</phone>
+                <birthday>5/4/55</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired MT/ASCP- Full time grandmom</Occupation>
+                <Ministry>Not active at moment</Ministry>
+                <funfacts>3 grown children- Laura Davis (Clay); Sarah Berg (Mike) &amp; Mark 4 grands- Sadie &amp; Brooks Berg/ Luke &amp; Collin Davis</funfacts>
+            </member>
+        </family>
+        <family name="SCHMIDT, Debbie">
+            <Address>382 Ockley Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Schmidt</lastname>
+                <familyrole>Member</familyrole>
+                <email>arroyo.deb@gmail.com</email>
+                <phone>3185057825</phone>
+                <birthday>6/8/63</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Teacher at The Learning School (@BBC); BeeSafe Driving School Instructor</Occupation>
+                <Ministry>JAMM (Wednesday nights) Facts/Hobbies Sewing and machine embroidery; love SEC football (Go Dawgs! Geaux Tigers!) 1 living son and daughter-in-law, Jordan McCart (Hollie) 2 grandsons—Jack &amp; Jame S</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="SEVIER, Scott and Debbie">
+            <Address>8032 Twisted Oaks</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106-9395</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Scott</firstname>
+                <lastname>Sevier</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dssevier@hotmail.com</email>
+                <phone>3184691787</phone>
+                <birthday>5/3/50</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Sigma Supply North America</Occupation>
+                <Ministry>“Before You Say I Do" / Mission House / Links players</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Sevier</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dssevier@hotmail.com</email>
+                <phone>3184704365</phone>
+                <birthday>7/19/51</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Pre-school owner--Wee Wisdom Preschool</Occupation>
+                <Ministry>“Before You Say I Do"; Mission House</Ministry>
+                <funfacts>2 sons -6 grandkids Scott - golf, reading. Debbie -making grandkids smile, reading</funfacts>
+            </member>
+        </family>
+        <family name="SHAVER, Robert and Trudie">
+            <Address>324 Ockley Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105-2943</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Robert</firstname>
+                <lastname>Shaver</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>shaver_r@bellsouth.net</email>
+                <phone>3188690600</phone>
+                <birthday>2/21/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Trudie</firstname>
+                <lastname>Shaver</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>shaver_r@bellsouth.net</email>
+                <phone>3182865940</phone>
+                <birthday>8/13/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="SHELTON, Debbie">
+            <Address>219 Flagg Drive</Address>
+                <City>Haughton</City>
+                <State>LA</State>
+                <Zip>71037</Zip>
+                <Picture></Picture>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Shelton</lastname>
+                <familyrole>Self</familyrole>
+                <email></email>
+                <phone></phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Debbie</firstname>
+                <lastname>Sinclair</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>demcsh@att.net</email>
+                <phone>3184581422</phone>
+                <birthday>10/20/60</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Caddo Parish Schools - Instructional Specialist for the Caddo Parish Deaf/Hard of Hearing and Vision Impaired Services</Occupation>
+                <Ministry>I sing in the choir and serve as called Facts/Hobbies I am the proud mother of one son, Nicholas, and daughter-in-love, Alyssa. I'm also the Mother to Callie, our blind 14 year-old cat. I'm a big animal lover, except for snakes. I don't do snakes of any kind. I enjoy spending time with my family, good friends, and Callie, knitting scarfs for the homeless, swimming, cooking/baking and singing in the choir with the best choir family ever.</Ministry>
+                <funfacts></funfacts>
+            </member>
+        </family>
+        <family name="SINCLAIR, Scott and Bridgett and Rick Smith and Brenda Teal and SHELTON 219 Flagg Drive, Haughton, LA 71037 and Debbie">
+            <Address>101 Belle Maison Court</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71111-5488</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Scott</firstname>
+                <lastname>Sinclair</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>scottcsinclair@bellsouth.net</email>
+                <phone>3184220161</phone>
+                <birthday>10/22/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Sinclair Law Firm</Occupation>
+                <Ministry>Choir, Deacon</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Bridgett</firstname>
+                <lastname>Sinclair</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>bridgetlsinclair@att.net</email>
+                <phone>3184645644</phone>
+                <birthday>10/20/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Sinclair Law Firm</Occupation>
+                <Ministry>Choir, Bible Study Fellowship</Ministry>
+                <funfacts>2 grown children, 2 grandchildren SMITH-TEAL 154 Sand Point Road Dubberly, LA 71024</funfacts>
+            </member>
+        </family>
+        <family name="SMITH-TEAL, Rick and Brenda">
+            <member>
+                <firstname>Rick</firstname>
+                <lastname>Smith</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>scoobysnuff42@yahoo.com</email>
+                <phone>3182304005</phone>
+                <birthday>2/11/60</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation></Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Brenda</firstname>
+                <lastname>Teal</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>bdteal24@gmail.com</email>
+                <phone>3186637508</phone>
+                <birthday>5/16/59</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Bossier Schools</Occupation>
+                <Ministry></Ministry>
+                <funfacts>9 grandkids. We love to travel</funfacts>
+            </member>
+        </family>
+        <family name="SOLOMON, Scott and Devalynn">
+            <Address>356 Atlantic Avenue</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Scott</firstname>
+                <lastname>Solomon</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>scottlightshow@gmail.com</email>
+                <phone>2282390409</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Air Force</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Devalynn</firstname>
+                <lastname>Solomon</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>deesolomon2012@gmail.com</email>
+                <phone>5407354717</phone>
+                <birthday></birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Camping, Boating, and time with our family TUBERVILLE 10045 Highway 80 Greenwood, LA 71033</Occupation>
+                <Ministry>Choir</Ministry>
+                <funfacts>Camping, Boating, and time with our family TUBERVILLE 10045 Highway 80 Greenwood, LA 71033</funfacts>
+            </member>
+            </family>
+        <family name="TILTON, Brad">
+            <Address>633 Albemarle Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Brad</firstname>
+                <lastname>Tilton</lastname>
+                <familyrole>Member</familyrole>
+                <email>brtilton@gmail.com</email>
+                <phone>3188404513</phone>
+                <birthday>10/5/63</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>2 children; 1 grandchild</Occupation>
+                <Ministry></Ministry>
+                <funfacts>2 children; 1 grandchild</funfacts>
+            </member>
+        </family>
+        <family name="Tinsley, Roger and Joy">
+            <Address>528 Buckhead Circle</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115</Zip>
+            <Picture>Tinsley.jpg</Picture>
+            <member>
+                <firstname>Roger</firstname>
+                <lastname>Tinsley</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rogerdtinsley@gmail.com</email>
+                <phone>3185644382</phone>
+                <birthday>12/2/1945</birthday>
+                <role>Admin</role>
+                <passwordHash></passwordHash>
+                <Picture>roger.jpg</Picture>
+                <Occupation>Retired</Occupation>
+                <Ministry>3 Disciple Groups, Missions</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Joy</firstname>
+                <lastname>Tinsley</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>rogechrist4joytinsley@gmail.com</email>
+                <phone>3184698548</phone>
+                <birthday>11/2/1943</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture>joy.jpg</Picture>
+                <Occupation>Retired</Occupation>
+                <Ministry>Home Bible Study, B Group Missions, 24:14, MVN</Ministry>
+                <funfacts>4 kids (3 - Joy; 1 - Roger), 11 Grandchildren Joy loves Bible studies, gardening, traveling Roger Loves to read aloud</funfacts>
+            </member>
+        </family>
+        <family name="Tuberville, Susan">
+            <member>
+                <firstname>Susan</firstname>
+                <lastname>Tuberville</lastname>
+                <familyrole>Self</familyrole>
+                <email>Susan.tuberville@yahoo.com</email>
+                <phone>3182867360</phone>
+                <birthday>11/21/58</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Caddo Parish School Board - Counselor</Occupation>
+                <Ministry>Broadmoor Stem School encouragement, Embrace Grace, Mission House</Ministry>
+                <funfacts>2 sons &amp; daughters-in-law; 5 grandsons Gardening, Reading, Traveling, Photography</funfacts>
+            </member>
+        </family>
+        <family name="WALDROP, Greg and Beth">
+            <Address>4612 Orchid Street</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71105-3134</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Greg</firstname>
+                <lastname>Waldrop</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>gwaldrop1461@yahoo.com</email>
+                <phone>3183085984</phone>
+                <birthday>1/4/61</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Summit Utilities</Occupation>
+                <Ministry>Greeter</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Beth</firstname>
+                <lastname>Waldrop</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>beth.s.waldrop@gmail.com</email>
+                <phone>3185532883</phone>
+                <birthday>7/6/61</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Jean Simpson Personnel Services &amp; Mossy Oak Properties of LA</Occupation>
+                <Ministry>Choir, Praise Team</Ministry>
+                <funfacts>Combined 6 adult children and spouses. 13 Grandboys, 2 Grandgirls Beth is an introvert. She also has double-jointed hips. Greg has 3 kidneys (only 1 works, but still . . . ☺)</funfacts>
+            </member>
+        </family>
+        <family name="WILKES, Gregg and Peggy">
+            <Address>22 Fairmont Circle</Address>
+            <City>Bossier City</City>
+            <State>LA</State>
+            <Zip>71111</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Gregg</firstname>
+                <lastname>Wilkes</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>greggwilkes@gmail.com</email>
+                <phone>3182101920</phone>
+                <birthday>8/19/65</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Attorney at Cook, Yancey, King, and Galloway</Occupation>
+                <Ministry></Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Peggy</firstname>
+                <lastname>Wilkes</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>peggywilkes@gmail.com</email>
+                <phone>3188200585</phone>
+                <birthday>12/28/65</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Retired Teacher</Occupation>
+                <Ministry>Broadmoor Foster Care Ministry, Embrace Grace</Ministry>
+                <funfacts>We have 3 children: David (Taylor) Jack, and Ellie (Matthew Adams David is our only child here locally. Jack lives in Baton Rouge. Ellie and Matthew live in Santa Fe Springs, CA Gregg and I love to travel with our friends to BBQ places all over the South! We love to take our family and friends boating! Peggy - I play a lot of tennis and love to read/listen to books. Gregg loves watch- ing movies. We have 3 pups that we love so much.</funfacts>
+            </member>
+        </family>
+        <family name="WILSON, Dan and Lisa">
+            <Address>444 Yearwood Road</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71115</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Dan</firstname>
+                <lastname>Wilson</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>dan@southern-touch.com</email>
+                <phone>3184697411</phone>
+                <birthday>6/27/63</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Southern Touch Construction, Inc. (Owner)</Occupation>
+                <Ministry>Nail Benders (Men’s construction group)</Ministry>
+                <funfacts></funfacts>
+            </member>
+            <member>
+                <firstname>Lisa</firstname>
+                <lastname>Wilson</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>lwilson1012016@gmail.com</email>
+                <phone>3184230106</phone>
+                <birthday>7/21/70</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Bossier Parish Police Jury (Human Resources Manager)</Occupation>
+                <Ministry>423 Praise Team</Ministry>
+                <funfacts>5 children (Corey, Maidie, Julie, Daniel &amp; Brandon) 5 grandchildren (Ryan, Easton, Adalida, Aibileen &amp; Ashton Rose) 3 great-grandchildren (Preston, Luke and Ella) We love spending time with our family, fishing, riding motorcycles, boating and traveling. Lisa also enjoys scrapbooking!</funfacts>
+            </member>
+        </family>
+        <family name="YOUMAN, Shawn and Kristi">
+            <Address>509 Dumbarton Drive</Address>
+            <City>Shreveport</City>
+            <State>LA</State>
+            <Zip>71106</Zip>
+            <Picture></Picture>
+            <member>
+                <firstname>Shawn</firstname>
+                <lastname>Youman</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>shawnyoumans@icloud.com</email>
+                <phone>9102315967</phone>
+                <birthday>12/18/65</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Employed Service Steel &amp; Pipe</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Employed Service Steel &amp; Pipe</funfacts>
+            </member>
+            <member>
+                <firstname>Kristi</firstname>
+                <lastname>Youman</lastname>
+                <familyrole>Spouse</familyrole>
+                <email>kyoumans69@aol.com</email>
+                <phone>9102315965</phone>
+                <birthday>5/27/69</birthday>
+                <role>Member</role>
+                <passwordHash></passwordHash>
+                <Picture></Picture>
+                <Occupation>Jean Simpson Personnel Services &amp; Mossy Oak Properties of LA</Occupation>
+                <Ministry></Ministry>
+                <funfacts>Moved from Wilmington, NC to be near our son, daughter-in-law and 2 granddaughters</funfacts>
+            </member>
+        </family>
+    </membership>
 </Record>
