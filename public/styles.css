@@ -388,6 +388,43 @@ p {
   color: var(--text);
 }
 
+#profileForm {
+  gap: 1.15rem;
+}
+
+#profileForm h4 {
+  margin: 0 0 0.75rem;
+  color: var(--primary-dark);
+}
+
+.family-profile,
+.member-profile {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.profile-family-layout {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.3fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.profile-family-fields,
+.profile-fields {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.profile-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#profileForm label {
+  grid-template-columns: minmax(7rem, 0.35fr) minmax(0, 1fr);
+  align-items: center;
+}
+
 .form-section {
   display: grid;
   gap: 0.8rem;
@@ -584,6 +621,15 @@ body.logged-in .secure-only {
 @media (max-width: 560px) {
   #signupForm > label,
   #signupForm .form-section label {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-family-layout,
+  .profile-fields {
+    grid-template-columns: 1fr;
+  }
+
+  #profileForm label {
     grid-template-columns: 1fr;
   }
 }

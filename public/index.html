@@ -132,43 +132,55 @@
           <details class="panel disclosure-panel">
             <summary>My profile</summary>
             <form id="profileForm" class="app-form">
-              <div class="profile-photo-wrap" id="profilePhotoWrap"></div>
-              <label>
-                First name
-                <input type="text" id="profileFirstName" />
-              </label>
-              <label>
-                Last name
-                <input type="text" id="profileLastName" />
-              </label>
-              <label>
-                Email
-                <input type="email" id="profileEmail" />
-              </label>
-              <label>
-                Phone
-                <input type="tel" id="profilePhone" />
-              </label>
-              <label>
-                Birthday
-                <input type="date" id="profileBirthday" />
-              </label>
-              <label>
-                Family name
-                <input type="text" id="profileFamily" />
-              </label>
-              <label>
-                Address
-                <input type="text" id="profileAddress" />
-              </label>
-              <label>
-                City
-                <input type="text" id="profileCity" />
-              </label>
-              <label>
-                Upload new picture
-                <input type="file" id="profilePicture" accept="image/*" />
-              </label>
+              <section class="family-profile" aria-labelledby="familyProfileHeading">
+                <h4 id="familyProfileHeading">Family</h4>
+                <div class="profile-family-layout">
+                  <div class="profile-photo-wrap" id="profilePhotoWrap"></div>
+                  <div class="profile-family-fields">
+                    <label>
+                      Family name
+                      <input type="text" id="profileFamily" />
+                    </label>
+                    <label>
+                      Address
+                      <input type="text" id="profileAddress" />
+                    </label>
+                    <label>
+                      City
+                      <input type="text" id="profileCity" />
+                    </label>
+                  </div>
+                </div>
+              </section>
+              <section class="member-profile" aria-labelledby="memberProfileHeading">
+                <h4 id="memberProfileHeading">Member information</h4>
+                <div class="profile-fields">
+                  <label>
+                    First name
+                    <input type="text" id="profileFirstName" />
+                  </label>
+                  <label>
+                    Last name
+                    <input type="text" id="profileLastName" />
+                  </label>
+                  <label>
+                    Email
+                    <input type="email" id="profileEmail" />
+                  </label>
+                  <label>
+                    Phone
+                    <input type="tel" id="profilePhone" />
+                  </label>
+                  <label>
+                    Birthday
+                    <input type="date" id="profileBirthday" />
+                  </label>
+                  <label>
+                    Upload new picture
+                    <input type="file" id="profilePicture" accept="image/*" />
+                  </label>
+                </div>
+              </section>
               <button type="submit" class="primary-button">Save my profile</button>
             </form>
           </details>
