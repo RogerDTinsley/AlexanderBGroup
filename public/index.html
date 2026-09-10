@@ -25,6 +25,9 @@
         <a id="authLink" class="nav-btn" href="#auth" data-view="auth" data-auth-target="login">Log in</a>
         <a id="createAccountLink" class="nav-btn" href="#auth" data-view="auth" data-auth-target="signup">Create account</a>
         <a class="nav-btn secure-only" href="#dashboard" data-view="dashboard">Member dashboard</a>
+        <a class="nav-btn secure-only member-nav-link" href="#profilePanel" data-view="dashboard" data-section="profilePanel">My Profile</a>
+        <a class="nav-btn secure-only member-nav-link" href="#memberLookupPanel" data-view="dashboard" data-section="memberLookupPanel">Member Lookup</a>
+        <a class="nav-btn secure-only member-nav-link" href="#rosterPanel" data-view="dashboard" data-section="rosterPanel">Class Roster</a>
       </nav>
     </header>
 
@@ -129,7 +132,7 @@
         </div>
 
         <div class="card-grid">
-          <details class="panel disclosure-panel">
+          <details id="profilePanel" class="panel disclosure-panel">
             <summary>My profile</summary>
             <form id="profileForm" class="app-form">
               <section class="family-profile" aria-labelledby="familyProfileHeading">
@@ -188,7 +191,7 @@
         </div>
 
         <div class="card-grid">
-          <details class="panel disclosure-panel">
+          <details id="memberLookupPanel" class="panel disclosure-panel">
             <summary>Member lookup</summary>
             <label>
               Search by name or email
