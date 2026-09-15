@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexander B Group</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260915-2" />
   </head>
   <body>
     <header class="topbar">
@@ -28,6 +28,7 @@
         <a class="nav-btn secure-only member-nav-link" href="#profilePanel" data-view="dashboard" data-section="profilePanel">My Profile</a>
         <a class="nav-btn secure-only member-nav-link" href="#memberLookupPanel" data-view="dashboard" data-section="memberLookupPanel">Member Lookup</a>
         <a class="nav-btn secure-only member-nav-link" href="#rosterPanel" data-view="dashboard" data-section="rosterPanel">Class Roster</a>
+        <a id="manageRolesLink" class="nav-btn secure-only hidden-section" href="#manageRoles" data-view="manageRoles">Manage Roles</a>
       </nav>
     </header>
 
@@ -240,10 +241,23 @@
           <div id="rosterList" class="stack-list"></div>
         </details>
       </section>
+
+      <section id="manageRolesView" class="view-panel">
+        <div class="panel">
+          <h3>Manage roles</h3>
+          <label>
+            Search by name or email
+            <input type="text" id="roleLookup" placeholder="Search roster" />
+          </label>
+          <button type="button" id="roleLookupBtn" class="secondary-button">Search</button>
+          <div id="roleResults" class="stack-list"></div>
+          <div id="roleDetail" class="profile-info hidden-section"></div>
+        </div>
+      </section>
     </main>
 
     <div id="toast" class="toast" aria-live="polite"></div>
 
-    <script src="app.js?v=20260911-2"></script>
+    <script src="app.js?v=20260915-2"></script>
   </body>
 </html>

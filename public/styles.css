@@ -357,6 +357,51 @@ p {
   font-size: 1rem;
 }
 
+.event-item > summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.event-item > summary > strong {
+  display: inline;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.event-item > summary > span {
+  color: var(--muted, #64748b);
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-item > summary::-webkit-details-marker {
+  display: none;
+}
+
+.event-item > summary::before {
+  content: '▸';
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.3rem;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.event-item[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.event-item > .need-row,
+.event-item > .need-add {
+  margin-top: 0.6rem;
+}
+
 .roster-family {
   display: grid;
   gap: 0.7rem;
