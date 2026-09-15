@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexander B Group</title>
-    <link rel="stylesheet" href="styles.css?v=20260915-2" />
+    <link rel="stylesheet" href="styles.css?v=20260915-7" />
   </head>
   <body>
     <header class="topbar">
@@ -28,7 +28,7 @@
         <a class="nav-btn secure-only member-nav-link" href="#profilePanel" data-view="dashboard" data-section="profilePanel">My Profile</a>
         <a class="nav-btn secure-only member-nav-link" href="#memberLookupPanel" data-view="dashboard" data-section="memberLookupPanel">Member Lookup</a>
         <a class="nav-btn secure-only member-nav-link" href="#rosterPanel" data-view="dashboard" data-section="rosterPanel">Class Roster</a>
-        <a id="manageRolesLink" class="nav-btn secure-only hidden-section" href="#manageRoles" data-view="manageRoles">Manage Roles</a>
+        <a id="manageRolesLink" class="nav-btn hidden-section" href="#manageRoles" data-view="manageRoles">Manage Roles</a>
       </nav>
     </header>
 
@@ -180,6 +180,10 @@
                     <input type="date" id="profileBirthday" />
                   </label>
                   <label>
+                    Role
+                    <div id="profileRoleWrap"></div>
+                  </label>
+                  <label>
                     Upload new picture
                     <input type="file" id="profilePicture" accept="image/*" />
                   </label>
@@ -199,8 +203,63 @@
               <input type="text" id="personLookup" placeholder="Search roster" />
             </label>
             <button type="button" id="personLookupBtn" class="secondary-button">Search</button>
+            <form id="lookupProfileForm" class="app-form hidden-section">
+              <section class="family-profile" aria-labelledby="lookupFamilyProfileHeading">
+                <h4 id="lookupFamilyProfileHeading">Family</h4>
+                <div class="profile-family-layout">
+                  <div class="profile-photo-wrap" id="lookupPhotoWrap"></div>
+                  <div class="profile-family-fields">
+                    <label>
+                      Family name
+                      <input type="text" id="lookupFamily" />
+                    </label>
+                    <label>
+                      Address
+                      <input type="text" id="lookupAddress" />
+                    </label>
+                    <label>
+                      City
+                      <input type="text" id="lookupCity" />
+                    </label>
+                  </div>
+                </div>
+              </section>
+              <section class="member-profile" aria-labelledby="lookupMemberProfileHeading">
+                <h4 id="lookupMemberProfileHeading">Member information</h4>
+                <div class="profile-fields">
+                  <label>
+                    First name
+                    <input type="text" id="lookupFirstName" />
+                  </label>
+                  <label>
+                    Last name
+                    <input type="text" id="lookupLastName" />
+                  </label>
+                  <label>
+                    Email
+                    <input type="email" id="lookupEmail" />
+                  </label>
+                  <label>
+                    Phone
+                    <input type="tel" id="lookupPhone" />
+                  </label>
+                  <label>
+                    Birthday
+                    <input type="date" id="lookupBirthday" />
+                  </label>
+                  <label>
+                    Role
+                    <div id="lookupRoleWrap"></div>
+                  </label>
+                  <label>
+                    Upload new picture
+                    <input type="file" id="lookupPicture" accept="image/*" />
+                  </label>
+                </div>
+              </section>
+              <button type="submit" id="lookupSaveBtn" class="primary-button">Save member</button>
+            </form>
             <div id="personResults" class="stack-list"></div>
-            <div id="personDetail" class="profile-info hidden-section"></div>
           </details>
         </div>
 
@@ -258,6 +317,6 @@
 
     <div id="toast" class="toast" aria-live="polite"></div>
 
-    <script src="app.js?v=20260915-2"></script>
+    <script src="app.js?v=20260915-9"></script>
   </body>
 </html>

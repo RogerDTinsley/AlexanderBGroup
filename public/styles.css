@@ -357,45 +357,72 @@ p {
   font-size: 1rem;
 }
 
-.event-item > summary {
-  cursor: pointer;
-  list-style: none;
+.lookup-result-row {
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  white-space: nowrap;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
   overflow: hidden;
 }
 
-.event-item > summary > strong {
-  display: inline;
+.lookup-result-row strong {
   margin-bottom: 0;
-  flex-shrink: 0;
-}
-
-.event-item > summary > span {
-  color: var(--muted, #64748b);
-  font-size: 0.9rem;
+  flex: 1 1 auto;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.event-item > summary::-webkit-details-marker {
-  display: none;
+.lookup-result-row span {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted, #64748b);
 }
 
-.event-item > summary::before {
-  content: '▸';
-  display: inline-block;
-  width: 1em;
-  margin-right: 0.3rem;
-  transition: transform 0.15s ease;
-  flex-shrink: 0;
+.lookup-result-row button {
+  flex: 0 0 auto;
 }
 
-.event-item[open] > summary::before {
-  transform: rotate(90deg);
+.events-table.two-column {
+  width: 100%;
+  border-collapse: collapse;
 }
+
+.events-table.two-column td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.events-table.two-column tr.event-row:nth-of-type(4n + 1) {
+  background: #f7fafc;
+}
+
+.events-table.two-column .event-name {
+  width: 40%;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--primary-dark);
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: var(--primary, #1d4ed8);
+}
+
+.event-detail-row td {
+  background: var(--card);
+}
+
 
 .event-item > .need-row,
 .event-item > .need-add {
@@ -510,6 +537,12 @@ p {
 
 .profile-fields {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.readonly-value {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  color: var(--muted, #64748b);
 }
 
 #profileForm label {
