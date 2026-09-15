@@ -613,6 +613,13 @@ select {
 .need-row small {
   color: var(--muted);
 }
+.need-link {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+.need-link:hover {
+  color: var(--primary, #1d4ed8);
+}
 .need-add input {
   flex: 1;
 }
