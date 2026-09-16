@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Record name="Alexander B Group">
+<?xml version="1.0" encoding="UTF-8"?><Record name="Alexander B Group">
   <Description>
     <p>Our class meets in room 2407 beginning at 8:30 Sunday mornings.</p>
     <p>The leader is Bill Alexander and we study from the Quarterly study guide.</p>
@@ -21,7 +20,7 @@
   </Activities>
 
   <events>
-    <event date="2026-10-15" time="18:00" location="Fellowship Hall">Class Potluck on a specific day
+    <event owner="" date="2026-10-15" time="18:00" location="Fellowship Hall">Class Potluck on a specific day
         <need>Salad
           <provider>Joy Tinsley</provider>
           <provider>Beth Waldrop</provider>
@@ -30,37 +29,38 @@
           <provider>Roger Tinsley</provider>
         </need>
     </event>
-    <event date="2026-12-24" time="19:00" location="Community Center">Class Christmas Party</event>
-    <event date="2026-11-12" time="10:00" location="Missions House">Mission House Work Day</event>
-    <event date="2026-09-15" time="14:00" location="Broadmoor Stem">Broadmoor Stem</event>
-    <event date="2026-03-20" time="15:00" location="Foster Care">Foster Care</event>
-    <event date="2026-05-10" time="13:00" location="Mercy Christian Academy">Mercy Christian Academy
-        <need>
-          <a href="https://docs.google.com/document/d/1eDVZP1Fldu6iDIy6hoamYo-qs5hfpm4hygsu2THOApw/edit?tab=t.0">
-            Prayer Volunteer</a>
-          <provider>Roger Tinsley</provider>
-          <provider>Joy Tinsley</provider>
-          <provider>Kristi Youman</provider>
-        </need>
-        <need>
-          <a href="https://docs.google.com/document/d/1MXc0XZmPaVRRORj8w0DuQ7WTqNWtvNa-qrBR2E-3lLE/edit?tab=t.0">
-            Reading Volunteer</a>
-          <provider>Roger Tinsley</provider>
-          <provider>Kristi Youman</provider>
-        </need>
-        <need>
-          <a href="https://docs.google.com/document/d/1dH6H_jUDlmDqVl3FjkfSyHuS2G62RkwUHXgzMInOrAQ/edit?tab=t.0">
-            Snack Volunteer</a>
-          <provider>Roger Tinsley</provider>
-          <provider>Joy Tinsley</provider>
-        </need>
-        <need>
-          <a href="https://docs.google.com/document/d/1MXc0XZmPaVRRORj8w0DuQ7WTqNWtvNa-qrBR2E-3lLE/edit?tab=t.0">
-            Math Games Volunteer</a>
-          <provider>Roger Tinsley</provider>
-        </need>
+    <event owner="" date="2026-12-24" time="19:00" location="Dining Room">
+        Class Christmas Party</event>
+    <event owner="" date="2026-11-12" time="10:00" location="Missions House">
+        Mission House Work Day</event>
+    <event owner="" date="2026-09-15" time="14:00" location="Broadmoor Stem">
+        Broadmoor Stem
+      <need>Snacks for Teachers</need>
+    </event>
+    <event owner="" date="2026-03-20" time="15:00" location="Foster Care">
+        Foster Care</event>
+    <event owner="Tracy Pourciau" >
+        Mercy Christian Academy 
+      <need><a href="https://docs.google.com/document/d/1eDVZP1Fldu6iDIy6hoamYo-qs5hfpm4hygsu2THOApw/edit?tab=t.0">
+           Prayer Volunteer</a>
+        <provider>Roger Tinsley</provider>
+      </need>
+      <need><a href="https://docs.google.com/document/d/1MXc0XZmPaVRRORj8w0DuQ7WTqNWtvNa-qrBR2E-3lLE/edit?tab=t.0">
+         Reading Volunteer</a>
+        <provider>Roger Tinsley</provider>
+      </need>
+      <need><a href="https://docs.google.com/document/d/1dH6H_jUDlmDqVl3FjkfSyHuS2G62RkwUHXgzMInOrAQ/edit?tab=t.0">
+         Snacks Volunteer</a>
+        <provider>Roger Tinsley</provider>
+      </need>
+      <need><a href="https://docs.google.com/document/d/1CZtHngscDIq3mJPL2TaE8paTFI4ByI-UzrjRLBWsb5I/edit?tab=t.0">
+         Math Games Volunteer</a>
+        <provider>Roger Tinsley</provider>
+      </need>
+    </event>
+    <event owner="" date="2026-05-10" time="13:00" location="Christmas Shoe Boxes">
+          El Salvador Missions
       </event>
-    <event date="2026-05-10" time="13:00" location="Christmas Shoe Boxes">El Salvador Missions</event>
 
   </events>
 </Record>
